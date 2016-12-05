@@ -1,0 +1,21 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+<h2>welcome to boundless website</h2>
+
+
+
+  <p>login? <%= link_to "index", sessions_new_path %></p>
+
+    <%#= form_for(:session, url: home_index_path) do |f| %>
+
+      <%#= f.label :email %>
+      <%#= f.email_field :text, class: 'form-control' %>
+
+      <%#= f.label :password %>
+      <%#= f.password_field :password, class: 'form-control' %>
+
+      <%#= f.submit "Log in", class: "btn btn-primary" %>
+    <% #end %>
+
+    <p>New user? <%= link_to "Sign up now!", new_user_path %></p>
+
